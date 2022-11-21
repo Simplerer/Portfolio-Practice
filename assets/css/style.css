@@ -12,7 +12,8 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-header {
+header,
+footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,6 +22,9 @@ header {
     padding-top: 5%;
     padding-bottom: 1%;
     border-bottom: darkred double 10px;
+}
+#foot {
+    justify-content: center;
 }
 
 h1 {
@@ -70,6 +74,7 @@ article {
 
 img {
     max-width: 400px;
+    max-height: 400px;
     margin-left: 1%;
     border-radius: 8%;
     box-shadow: 4px 4px slategray;
@@ -87,10 +92,10 @@ article {
     justify-content: center;
     align-content: center;
     padding-right: 20%;
-    line-height: 1.5;
+    line-height: 1.8;
 }
 
-article h2 {
+h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: darkred;
     font-weight: 700;
