@@ -11,11 +11,6 @@ body {
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-.container {
-    max-width: 1140px;
-    margin: o auto;
-}
-
 header {
     display: flex;
     justify-content: space-between;
