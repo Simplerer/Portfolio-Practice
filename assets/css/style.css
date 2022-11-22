@@ -1,13 +1,13 @@
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 
 body {
     display: flex;
     flex-direction: column;
     font-size: 20px;
     background-color:antiquewhite;
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .container {
@@ -48,7 +48,7 @@ h1 {
 ul {
     display: flex;
     justify-content: space-evenly;
-    min-width: 400px;
+    min-width: 600px;
     background-color: cadetblue;
     border-radius: 16px;
     padding: 2%;
@@ -56,7 +56,7 @@ ul {
 }
 
 a {
-    color: darkred;
+    color: antiquewhite;
 }
 
 a:hover {
@@ -119,8 +119,8 @@ h2 {
     font-weight: 700;
     font-size: 200%;
     text-decoration:underline;
+    margin-left: 2%;
 }
 
-@media screen and
+
     
-}
