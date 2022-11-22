@@ -152,6 +152,17 @@ section img {
     width: 75%;
 }
 
+@media screen and (max-width: 768px) {
+    header, aside {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    img {
+        margin: auto;
+    }
+}
+
 
 
 
