@@ -90,7 +90,7 @@ article {
     
 }
 
-img {
+aside img {
     max-width: 400px;
     max-height: 400px;
     margin-left: 2%;
@@ -121,6 +121,23 @@ h2 {
     text-decoration:underline;
     margin-left: 2%;
 }
+
+h3 {
+    font-size: 140%;
+    margin: 2%;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+section img {
+    max-width: 50%;
+}
+
 
 
     
