@@ -146,6 +146,10 @@ section img {
     width: 50%;
 }
 
+#bigger img {
+    width: 75%;
+}
+
 
 
 
