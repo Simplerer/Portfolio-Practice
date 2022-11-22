@@ -1,7 +1,5 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 body {
@@ -9,11 +7,15 @@ body {
     flex-direction: column;
     font-size: 20px;
     background-color:antiquewhite;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 
-header,
-footer {
+.container {
+    max-width: 1140px;
+    margin: o auto;
+}
+
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,8 +25,17 @@ footer {
     padding-bottom: 1%;
     border-bottom: darkred double 10px;
 }
-#foot {
+
+footer {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    background-color:rgb(120, 140, 160);
+    color: darkred;
+    border-top: darkred double 10px;
+    font-size: 30px;
+    padding-bottom: 2%;
+
 }
 
 h1 {
@@ -34,7 +45,7 @@ h1 {
 
 }
 
-nav  ul {
+ul {
     display: flex;
     justify-content: space-evenly;
     min-width: 400px;
@@ -59,11 +70,18 @@ a:hover {
     margin-bottom: 3%;
 }
 
+.prefooter {
+    background-image: radial-gradient(rgb(120, 140, 160), indigo);
+    height: 50px;
+    width: 100%;
+    margin-top: 3%;
+}
+
 #about {
     display: flex;
     flex-direction:row;
     justify-content: flex-end;
-    width: 80%;
+    margin-bottom: 2%;
 }
 
 article {
@@ -75,7 +93,7 @@ article {
 img {
     max-width: 400px;
     max-height: 400px;
-    margin-left: 1%;
+    margin-left: 2%;
     border-radius: 8%;
     box-shadow: 4px 4px slategray;
 
@@ -101,4 +119,8 @@ h2 {
     font-weight: 700;
     font-size: 200%;
     text-decoration:underline;
+}
+
+@media screen and
+    
 }
